@@ -1,0 +1,44 @@
+header, nav, main {
+    max-width: 1240px;
+    margin: auto;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+
+
+#navWrapper {
+    nav {
+    
+        button {display: none;}
+        #primaryNav {display: flex;}
+        
+    
+        ul, ul.open {
+            margin-left: 2%;
+            border-left: 1px solid #333;
+            
+        } //end of ul
+    
+        ul li {
+            border-right: 1px solid #333;
+        } 
+        
+        ul li a {
+            border: none;
+            font-size: 1rem;
+            padding: .9rem 1.2rem;
+            color: white;
+            text-decoration: none;
+    
+        }
+    
+        ul li a:hover {
+            background: darken($menuColor, 5%);
+        }
+    
+        ul.open {
+            display: none;
+        }
+    } // end nav
+    
+    } //end of navWrapper

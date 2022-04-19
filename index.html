@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Navigation Example</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.css"/>
+
+<!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="headerWrapper">
+	<header>
+        <img src="images/Daniel'sSwagShop.png" alt="logo">
+            <div>
+                <h1>Dan's Swag Shop</h1>
+                <h2>Fill out the Form</h2>
+            </div>
+	</header>
+</div><!-- end header wrapper -->
+
+    
+    
+<div id="navWrapper">
+
+    <nav>
+
+
+    <button id="hamburgerBtn">
+        <span class="line top"></span>
+        <span class="line middle"></span>
+        <span class="line bottom"></span>
+    </button>
+
+
+   
+        <ul id="primaryNav">
+            <li class="parent"><a href="#">Visit</a>
+            <li><a href="#">Departments</a>
+            <li><a href="#">Services</a>
+            <li><a href="#">Pay Bills</a></li>
+            <li><a href="#">Meetings</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </nav>
+</div> <!-- end nav wrapper -->
+</div> <!-- end nav wrapper -->
+
+<div id="mainWrapper">
+<!-- CONTENT HERE -->
+<main>
+    <h1>Course Proposal Application</h1>
+
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Customer Information</legend>
+            <label class="top"> Full Name*<input type="text" name="fname" required></label>
+            <label class="top"> Phone Number<input type="tel" name="phone" placeholder="444-445-6678"></label>
+            <label class="top"> Email*<input type="email" name="email" placeholder="youremail@gmail.com" required></label>
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Swag Information</legend>
+
+            <label class="top">Business Name*<input type="text" name="fname" required></label>
+
+
+            <label class="top">When do you need this item?<input type="date" name="completedDate" required></label>
+
+            <label class="top"> Website<input type="url" name="url" placeholder="http://"></label>
+
+            <label class="top">Items <select name="subject" required>
+                    <option value="">Please Select &#9662;</option>
+                <option value="banner">Company Banner</option>
+                <option value="shirt">Comapny Shirts with Business Name</option>
+                <option value="hat">Company Hats</option>
+                <option value="computers">Comapany Logo for a computer</option>
+                <option value="flag">Company Flags</option>
+                <option value="shoes">Company Shoes</option>
+                <option value="phones">Business Name Phone Case</option>
+            </select></label>
+            <label class="top">How Many Swag Items Are Needed><input type="number" name="authors" required></label>
+        </fieldset>
+
+
+
+        <fieldset>
+            <legend>Item Information</legend>
+
+            <div>Sizes Needed*</div>
+            <label class="sbs"><input type="checkbox" name="x-small" value="yes">X-Small</label>
+            <label class="sbs"><input type="checkbox" name="small" value="yes">Small</label>
+            <label class="sbs"><input type="checkbox" name="medium" value="yes">Medium</label>
+            <label class="sbs"><input type="checkbox" name="large" value="yes">Large</label>
+            <label class="sbs"><input type="checkbox" name="x-large" value="yes"> X-Large</label>
+            <label class="sbs"><input type="checkbox" name="xx-large" value="yes">XX-Large</label>
+
+            <div>Event Setting</div>
+            <label class="sbs"><input type="radio" name="audience" value="beginner">Outside</label>
+            <label class="sbs"><input type="radio" name="audience" value="intermediate">Inside</label>
+            <label class="sbs"><input type="radio" name="audience" value="advanced">Outside & Inside</label>
+
+          
+        </fieldset>
+
+        <fieldset>
+            <legend>Card Information</legend>
+            <label class="top">Name on Card*<input type="text" name="cardName" required></label>
+            <label class="top">Card Number*<input type="number" name="cardNumber" required></label>
+            <label class="top"> Expiration Date*<input type="date" name="date" required></label>
+            <label class="top">Security Code*<input type="text" name="text" placeholder="123" required></label>
+
+        </fieldset>
+
+
+        <input type="submit" value="Get My Swag" class="submitBtn">
+        
+
+    </form>
+        
+
+          
+        
+    </main>
+    
+
+    
+<div id="footerWrapper">
+    <footer>
+        <p>Copyright &copy; 2022 Design Thinking Inc. All rights reserved. 
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Sales</a> | <a href="#">Clients</a></p>
+    </footer>
+</div> <!-- end footer wrapper -->
+
+<script src="js/scripts.js"></script>
+
+   
+</body>
+</html> 

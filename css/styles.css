@@ -141,7 +141,7 @@ header h2 {
   #navWrapper ul li a:hover {
     background-color: rgba(0, 0, 0, 0.5); }
   #navWrapper #active {
-    background-color: red; }
+    background-color: #5c60ab; }
   #navWrapper ul.open {
     display: block; }
 

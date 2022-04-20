@@ -166,7 +166,7 @@ header h2 {
   background-color: rgba(0, 0, 0, 0.5);
 }
 #navWrapper #active {
-  background-color: red;
+  background-color: #5c60ab;
 }
 #navWrapper ul.open {
   display: block;

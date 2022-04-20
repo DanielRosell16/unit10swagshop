@@ -212,6 +212,15 @@ main {
   min-height: 20rem;
 }
 
+main h1 {
+  font-size: 2rem;
+  padding: 15px 0;
+}
+
+main p {
+  font-size: 1rem;
+}
+
 /* Form Stuff Here */
 form fieldset {
   margin: 2rem 0;

@@ -160,7 +160,7 @@ header h2 {
   font-size: 1.1rem;
   color: white;
   width: 100%;
-  background-color: #4d8d6e;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 #navWrapper ul li a:hover {
   background-color: rgba(0, 0, 0, 0.5);
